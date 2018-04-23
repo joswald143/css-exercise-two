@@ -1,13 +1,39 @@
 body {
+  font-size: 16px;
   background-color: #ff0000;
-  color: #0000FF;
+  color: #ffffff;
+  line-height: 130%;
+}
+
+
+h1 {
+  font-size: 4em;
+  line-height: 160%;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 100%;
+}
+
+p {
+  font-size: 100%;
+  margin: 16px;
+}
+
+figcaption {
+  font-size: .75em;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  font-size: 90%;
+  color: #ffffff;
+  background-color: rgba(0,0,0,.4);
+  font-weight: bold;
   float: left;
   position: fixed;
   width: 100%;
+  text-decoration: none;
 }
 
 .logo {
@@ -30,6 +56,7 @@ nav {
 
 .right {
   float: right;
+  color: white;
 }
 
 ul {
@@ -40,6 +67,8 @@ ul {
 li {
   float: right;
   padding: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 article {
